@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  margin-top: 10px;
+}
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 50%;
+  width: 50%;
+  mix-blend-mode: darken;
+  object-fit: cover;
+
+}
+.title{
+    display: block;
+    font-weight: 700;
+}
+.description{
+    margin-left: 30px;
+}

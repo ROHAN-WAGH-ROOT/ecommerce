@@ -1,0 +1,40 @@
+.mainContainer {
+  display: block;
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.image {
+  mix-blend-mode: darken;
+  padding: 10px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.mainContainer:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.titlePriceConatiner {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  display: flex;
+  font-size: large;
+  font-weight: 500;
+  margin: 5px 20px;
+  padding: 0px 2px;
+}
+.price {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px 20px;
+}
+.line {
+  margin: 3px;
+}
